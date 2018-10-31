@@ -1,0 +1,30 @@
+{
+  "states": [
+    "intent_address",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_inform",
+    "intent_opening_hours",
+    "intent_place_search",
+    "intent_rating",
+    "intent_thanks",
+    "entity_query",
+    "entity_number",
+    "slot_location_match_0",
+    "slot_location_match_1",
+    "slot_number_0",
+    "slot_query_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_thanks",
+    "prev_utter_what_radius",
+    "prev_utter_rating",
+    "prev_utter_opening_hours",
+    "prev_utter_address",
+    "prev_utter_no_results",
+    "prev_action_place_search"
+  ]
+}

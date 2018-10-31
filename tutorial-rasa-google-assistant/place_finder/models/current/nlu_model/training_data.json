@@ -1,0 +1,445 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "What's up"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "Good  morning"
+      },
+      {
+        "intent": "greet",
+        "text": "Good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "Good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey sir"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi person"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey robot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks a bunch"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you very much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Talk to you later!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Awesome, bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye."
+      },
+      {
+        "intent": "goodbye",
+        "text": "Talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "restaurant",
+            "entity": "query"
+          }
+        ],
+        "text": "I am looking for a restaurant."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "cinema",
+            "entity": "query"
+          }
+        ],
+        "text": "Where is the closest cinema?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "supermarket",
+            "entity": "query"
+          }
+        ],
+        "text": "Looking for a supermarket within 50 meters from me."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "restaurant",
+            "entity": "query"
+          }
+        ],
+        "text": "Can you tell me where is the restaurant in 100 meters from where I am?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "market",
+            "entity": "query"
+          }
+        ],
+        "text": "Is there a market within 500 meters?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "shop",
+            "entity": "query"
+          }
+        ],
+        "text": "Where is the closest shop?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "mall",
+            "entity": "query"
+          }
+        ],
+        "text": "Where can I find the mall?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "hair salon",
+            "entity": "query"
+          }
+        ],
+        "text": "I am looking for a hair salon within 20 meters from here."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "museum",
+            "entity": "query"
+          }
+        ],
+        "text": "Please tell me is there a museum around?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 44,
+            "value": "train station",
+            "entity": "query"
+          }
+        ],
+        "text": "I am wondering if I can find a train station within 250 meters from here?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "club",
+            "entity": "query"
+          }
+        ],
+        "text": "I am looking for a club nearby."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "bank",
+            "entity": "query"
+          }
+        ],
+        "text": "Is there a bank anywhere close?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "bank",
+            "entity": "query"
+          }
+        ],
+        "text": "I am looking for a bank withing 25 meters from here."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "cinema",
+            "entity": "query"
+          }
+        ],
+        "text": "Looking for a cinema."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "centurysoft",
+            "entity": "query"
+          }
+        ],
+        "text": "There is any opening in centurysoft."
+      },
+      {
+        "intent": "opening_hours",
+        "text": "Is it still open?"
+      },
+      {
+        "intent": "opening_hours",
+        "text": "Is it open at the moment?"
+      },
+      {
+        "intent": "opening_hours",
+        "text": "Is it working?"
+      },
+      {
+        "intent": "opening_hours",
+        "text": "Is it open today?"
+      },
+      {
+        "intent": "opening_hours",
+        "text": "If I go there now, is it still open?"
+      },
+      {
+        "intent": "opening_hours",
+        "text": "Can you tell me if it's open at the moment?"
+      },
+      {
+        "intent": "opening_hours",
+        "text": "Tell me if it's open."
+      },
+      {
+        "intent": "opening_hours",
+        "text": "Is the place open today?"
+      },
+      {
+        "intent": "opening_hours",
+        "text": "Is the place still open today?"
+      },
+      {
+        "intent": "address",
+        "text": "Where is it?"
+      },
+      {
+        "intent": "address",
+        "text": "What's the address?"
+      },
+      {
+        "intent": "address",
+        "text": "Can you tell me the address?"
+      },
+      {
+        "intent": "address",
+        "text": "Where is the place?"
+      },
+      {
+        "intent": "address",
+        "text": "What is the location of it?"
+      },
+      {
+        "intent": "address",
+        "text": "Where about is it?"
+      },
+      {
+        "intent": "address",
+        "text": "Can you please tell me the actual address?"
+      },
+      {
+        "intent": "address",
+        "text": "Does it take long to get there?"
+      },
+      {
+        "intent": "address",
+        "text": "Does it take a long time to get to the place?"
+      },
+      {
+        "intent": "address",
+        "text": "I am wondering how long does it take to get to the location?"
+      },
+      {
+        "intent": "address",
+        "text": "What is the address of this place?"
+      },
+      {
+        "intent": "address",
+        "text": "Where is this place?"
+      },
+      {
+        "intent": "address",
+        "text": "What is an actual address?"
+      },
+      {
+        "intent": "rating",
+        "text": "What is the rating of this place?"
+      },
+      {
+        "intent": "rating",
+        "text": "Does it have a good rating?"
+      },
+      {
+        "intent": "rating",
+        "text": "Tell me the rating"
+      },
+      {
+        "intent": "rating",
+        "text": "Do you know the rating of this place?"
+      },
+      {
+        "intent": "rating",
+        "text": "What rating does it have?"
+      },
+      {
+        "intent": "rating",
+        "text": "I want to know the rating"
+      },
+      {
+        "intent": "rating",
+        "text": "10 meters"
+      },
+      {
+        "intent": "rating",
+        "text": "100 meters"
+      },
+      {
+        "intent": "rating",
+        "text": "1500"
+      },
+      {
+        "intent": "rating",
+        "text": "around 100"
+      },
+      {
+        "intent": "rating",
+        "text": "let's say 50 meters"
+      },
+      {
+        "intent": "rating",
+        "text": "within 15 meters"
+      },
+      {
+        "intent": "rating",
+        "text": "within 25 meters from here"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
