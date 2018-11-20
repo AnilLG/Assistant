@@ -1,2 +1,2 @@
 # Assistant
-My assistant for google assistant
+I created a custom action and integrated with Google Assistant.
