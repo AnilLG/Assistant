@@ -26,15 +26,21 @@ You can find the step-by-step tutorial here.
   This project consists of the following files:
 
 **data/nlu_data.md** is a file which contains the training data for Rasa NLU model. This data consists of the example user queries alongside the corresponding intents and entities.
+
 **config.yml** file contains the configuration of the Rasa NLU training pipeline. It defines how the user inputs will be parsed, how the features will be extracted and what machine learning model will be used to train the model.
+
 **data/stories.md** is a file which contains training data for the Rasa Core model. This data consists of stories — actual conversations between a user and an assistant written in a Rasa format, where user inputs are expressed as corresponding intents and entities, and the responses of the assistant are expressed as actions.
+
 **domain.yml** is a file which contains the configuration of the assistant’s domain. It consists of the following pieces:
 intents and entities that are defined in Rasa NLU training data examples;
 slots which work like placeholders for saving the details that the assistant has to remember throughout the conversation;
 templates which define the text responses that an assistant should return when the corresponding utterances are predicted
 actions which the assistant should be able to predict and execute.
+
 **actions.py** is a file which contains the code of the custom action where the assistant makes an API call to retrieve the details about the user’s current location and search for the specified place within the user requested radius. The assistant then uses the returned details to generate the response and stores some of the retrieved details as slots for the assistant to use in the later stages of the conversation.
+
 **endpoints.yml** contains the configuration of custom actions webhook.
+
 **credentials.yml** — a file to store your Google Places API key.
 
 All these files are ready for you to use, all you have to do is provide your Google Places API key to credentials.yml file and train the models. Train the NLU model using the command below which will call Rasa NLU train function, pass training data and processing pipeline configuration files, and save the model inside the models/current/nlu_model directory:
