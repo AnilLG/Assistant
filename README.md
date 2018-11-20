@@ -1,8 +1,11 @@
 # Assistant
 This repository contains the code of the tutorial of connecting Rasa-powered assistant to Google Assistant. In this project, I am going to show you how can create custom action and enable your Google Assistant to handle deeper and more natural conversations by integrating it with Rasa Stack.
 This project contains the following files:
+
 **place_finder** - a directory which contains a pre-built Rasa assistant called Search Restaurant. This assistant is used in this tutorial to demonstrate the integration to Google Assistant.
+
 **action.json** - a custom Google Assistant action configuration file.
+
 **ga_connector.py** - a custom Rasa-Google Assistant connector. If you follow the tutorial using your own assistant, add this connector to your project directory.
 
 ## Outline
