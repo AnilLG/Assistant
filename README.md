@@ -17,6 +17,7 @@ This project contains the following files:
     
 ## Building blocks
 Here are the tools and software which you will need to create a Rasa-powered Google Assistant:
+
     • Google Assistant smart speaker or a Google Assistant app — a tool to test the custom Google Assistant skill
     • Google Actions console — the platform for initializing custom Google Assistant actions
     • Google Actions SDK — a software pack designed to build custom Google Assistant skills
