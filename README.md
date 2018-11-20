@@ -81,9 +81,6 @@ All custom Google Assistant skills need an invocation action, so all you have to
 
 - conversationName which will work as a connector between the intent and a corresponding fulfillment. For the skill invocation action, a conversationName could be something like ‘welcome’
 - queryPatterns — an example phrase that a user might say. For the skill invocation action, a query pattern could be something like ‘Talk to Search Restaurant’.
-- 
-Once the invocation action is configured, all you have to add is one another action which will pass all user inputs to Rasa Stack after the custom skill is invoked. For this, you will have to define a new intent with the name ‘TEXT’ which will capture all user inputs after speech-to-text service is performed and pass it to Rasa Stack using the webhook which you will define in the next step.
-In order to pass user inputs to Rasa, Google Assistant needs a webhook url which will be used to establish the connection between the two. In the next step, you will write a custom connector to connect Rasa to Google Assistant.
 
 ## Step 4: Creating Rasa Connector for Google Assistant
 
